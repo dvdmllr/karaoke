@@ -25,7 +25,7 @@ BS_NOUNS = ['action items', 'alignments', 'applications', 'architectures', 'band
 def bs_txt():
     bs_string  = random.choice(BS_ADVERBS) + ' '
     bs_string += random.choice(BS_VERBS) + ' '
-    bs_string  = random.choice(BS_ADJECTIVES) + ' '
+    bs_string += random.choice(BS_ADJECTIVES) + ' '
     bs_string += random.choice(BS_NOUNS)
     return bs_string
 
